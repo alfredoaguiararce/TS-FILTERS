@@ -1,0 +1,25 @@
+{
+  "name": "ts-filters",
+  "version": "1.0.0",
+  "description": "Sample filters in JS and TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec ts-node src/sample_1.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "mathjs": "^11.8.0",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.1.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
